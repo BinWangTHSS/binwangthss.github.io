@@ -1,0 +1,70 @@
+.style1 {
+	font-family: "Arial Black", Arial, serif;
+	font-size: xx-large;
+	font-weight: bold;
+	text-align: center;
+}
+div.ItemTitle {
+	padding: 2px 2px 2px 5px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: xx-large;
+	font-weight: bold;
+	border-bottom-style: outset;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: left;
+	clear: left;
+}
+div.menuleft {
+	border: thin none #0000FF;
+	float: left;
+	padding: 2px 1px 2px 22px;
+	margin: 0px;
+	text-align: center;
+}
+div.menu {
+	border: 1px solid #000000;
+	padding: 5px;
+	margin: 0px 0px 20px 0px;
+	vertical-align: middle;
+	background-color: #00CCFF;
+}
+div.menuright {
+	border: thin none #000000;
+	margin: 0px;
+	padding: 2px;
+}
+body {
+	background-color: #E0E3BD;
+	font-family: Arial, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-align: center;
+	vertical-align: middle;
+}
+div.workitem {
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+}
+div.titlepic {
+	float: left;
+	width: 150pt;
+	padding-right: 5px
+}
+div.titlepic img{
+	width: 100%;
+	margin: 2px;
+}
+div.bodycontainer {
+	width: 800px;
+}
+div.workright {
+	float: none;
+    font-size: 16px;
+	text-align: justify ;
+	margin: 2px;
+}
+div.intro {
+	text-align: justify;
+	padding: 10px;
+}
