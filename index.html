@@ -4,6 +4,22 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Bin Wang</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css" media="screen" />
+	<!-- 自定义：在每篇文章前添加小符号 -->
+    <style>
+      /* 只针对 Selected Publications 部分的列表项 */
+      #projects .detail > p {
+        position: relative;
+        padding-left: 1.2em;
+      }
+      #projects .detail > p::before {
+        content: "✦";               /* 你也可以换成 "•" 或者 "📄" */
+        position: absolute;
+        left: 0;
+        top: 0.1em;
+        font-size: 0.8em;
+        color: #007acc;             /* 符号颜色 */
+      }
+    </style>
 	<!--[if IE 6]>
 	<style>
 		#pitch .infoline {margin-top:-74px;}
